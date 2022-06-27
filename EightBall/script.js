@@ -27,8 +27,8 @@ var ball = document.querySelector("#ball");
 
 function getAnswer() {
     ball.src = "ball.gif"
-    replace(answer);
     var answer = lifesAnswers[Math.floor(Math.random() * 20)];
+    replace(answer);
     console.log(answer);
     // replaceMe.innerText = answer;
     console.log(answer + 'after');
