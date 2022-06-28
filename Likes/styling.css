@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    border:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+    margin-left:15%;
+    margin-right:15%;
+    /* border:solid black; */
+    height:10%;
+}
+.banner{
+    background-color:black;
+    color:white;
+    font-size:20px;
+    height:50%;
+    display:flex;
+
+}
+.banner p{
+    margin-left:5%;
+    padding-top:3%;
+}
+.pageTitle{
+    display:flex;
+    justify-content:center;
+    padding-top: 3%;
+    font-size:20px;
+}
+.bodyContainer{
+    margin-left:15%;
+    margin-right:15%;
+    margin-top:3%;
+    /* border:solid black; */
+    height:500px;
+    display:flex;
+}
+.userProfile{
+    height:40%;
+    width:30%;
+    margin-right:5%;
+    float:left;
+    border:solid black;
+    display:flex;
+    flex-flow: column nowrap;
+}
+.userProfile img{
+    height:30%;
+    width:30%;
+    margin:5% 5% 10% 0%;
+    align-self:center;
+}
+.userProfile p{
+    align-self:center;
+    margin-bottom:10%;
+}
+.userFeed{
+    /* border:solid blue; */
+    width:80%;
+    display:flex;
+    flex-flow:column nowrap;
+}
+.feed1{
+    border:solid black;
+    width:90%;
+    margin:0% 0% 5% 0%;
+    flex-flow:row nowrap;
+    padding:5%;
+}
+.userInfo{
+    display:flex;
+    justify-content:space-around;
+}
+.userInfo p{
+    position:relative;
+    right:15%;
+}
+.likes{
+    position:relative;
+    left:15%;
+}
+.likeButton{
+    background-color:yellow;
+    border:solid black;
+    box-shadow:2px 2px;
+}
+
+.aboutUser {
+    right:3%;
+    position:relative;
+    padding-top:3%;
+}
+
+.footer{
+    position:absolute;
+    bottom:0%;
+    background-color:grey;
+    height:50px;
+    width:100%;
+}
